@@ -1,1 +1,16 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><title>githubissue</title><link href=/static/css/app.6b425eadfebd88c847f635a39dc4db8b.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=/static/js/manifest.2ae2e69a05c33dfc65f8.js></script><script type=text/javascript src=/static/js/vendor.d6a3460feb0dfe222f7a.js></script><script type=text/javascript src=/static/js/app.03438dd277907c9ac87b.js></script></body></html>
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><title>githubissue</title><link href=/static/css/app.5e7cee3d927aec292dac6290734e02bd.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=/static/js/manifest.2ae2e69a05c33dfc65f8.js></script><script type=text/javascript src=/static/js/vendor.d6a3460feb0dfe222f7a.js></script><script type=text/javascript src=/static/js/app.5c309fb49db2ef2d49b4.js></script></body><script type=text/javascript>var deviceWidth = parseInt(window.screen.width);
+    var deviceScale = deviceWidth / 640;
+    var ua = navigator.userAgent;
+    if (/Android (\d+\.\d+)/.test(ua)) {
+      var version = parseFloat(RegExp.$1);
+      if (version > 2.3) {
+        document.write('<meta name="viewport" content="width=640,initial-scale=' + deviceScale + ', minimum-scale = ' +
+          deviceScale + ', maximum-scale = ' + deviceScale + ', target-densitydpi=device-dpi">');
+      } else {
+        document.write(
+          '<meta name="viewport" content="width=640,initial-scale=0.75,maximum-scale=0.75,minimum-scale=0.75,target-densitydpi=device-dpi" />'
+        );
+      }
+    } else {
+      document.write('<meta name="viewport" content="width=640, user-scalable=no">');
+    }</script></html>
